@@ -2,9 +2,6 @@
 
 -export([first_word/1]).
 
--include_lib("eunit/include/eunit.hrl").
-
-
 first_word(BinText) -> 
     first_word(BinText, <<>>).
 
