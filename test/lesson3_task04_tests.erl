@@ -15,4 +15,4 @@ json_fun_test() ->
     %?assertEqual([], json_fun(<<"[]">>))!!!,
     %?assertEqual([1,2,3], json_fun(<<"[1,2,3]">>)),
     %?assertEqual(#{age => 30}, json_fun(<<"{\"age\": 30}">>)).
-    ok.
+ 
