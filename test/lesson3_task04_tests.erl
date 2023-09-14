@@ -8,7 +8,6 @@ json_fun_test() ->
     %?assertEqual(3.14, json_fun(<<"3.14">>))!!!,
     ?assertEqual(<<"Hello">>, json_fun(<<"\"Hello\"">>)),
     ?assertEqual(<<"Привіт">>, json_fun(<<"\"Привіт\"">>)),
-    ?assertEqual(<<"Привіт">>, json_fun(<<"\"Привіт\"">>)),
     %?assertEqual([true, false], json_fun(<<"[true, false]">>)),
     %?assertEqual(null, json_fun(<<"null">>)),
     %?assertEqual([], json_fun(<<"[]">>))!!!,
