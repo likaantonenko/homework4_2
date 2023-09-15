@@ -29,5 +29,5 @@ words(<<>>, Acc) ->
 words(BinText, Acc) ->
     Slovo = first_word(BinText),
     Rest = rest_words(BinText),
-    words(reverse(Rest, [Slovo | Acc])).    
+    words(Rest, [Slovo | Acc]).    
 
