@@ -23,6 +23,7 @@ rest_words(<<_/utf8, Rest/binary>>)->
 
 words(BinText) ->
     words(BinText, <<>>).
+
 words(<<>>, Acc) ->
     Acc;
 words(BinText, Acc) ->
